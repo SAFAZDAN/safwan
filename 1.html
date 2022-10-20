@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ html {
+         margin: 0;
+         padding: 0;
+  }
+header{
+          width: 100vw;
+	height: 80px;
+ 	position: scroll;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}
+
+ 	nav{
+		height: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+ 		overflow: hidden;
+}
+
+	nav-link{
+	text-transform: uppercase;
+	color: Black;
+	font: 20px sans-serif;
+	padding: 100% 25px;
+	
+}
+ 	nav-link hover{
+		background-color: red;
+		color: orange;
+}
+
+	body{
+		font-family: Aria, Helvtica, sans-serif;
+		font-size: 13pt;
+		background-color: white;
+		padding: 10px;
+		margin: 0;
+}
+
+ h1{ 
+	font-size: 15pt;
+	color: black;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 0 0 10px 0:
+}
+
+  h1 span{
+	border: 1px solid orangered;
+	padding: 10px;
+	}
+p{
+	padding: 0;
+	margin: 0;
+}
+	
+	img-circle{
+	border: 3px solid white;
+	border-radius: 50%;
+}
+	
+section{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+	
+#header{
+	background-image url("https://uploads-ssl.webflow.com/5e4dfa5d58d02b574c094981/5e61b936452770f1cc437223_Render%20Engine%20Blur.jpg");
+	background-size: cover;
+}
+#header img{
+	display:block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+}
+#header p{
+	font-size: 25pt;
+	color: black;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+selected{
+	background-color: #f36f48;
+	font-weight: bold;
+	color: red;
+}
+gallery{
+	display: flex;
+	flex-wrap: wrap;
+	/* Copensate for excess margin on outer gallery flex items*/
+	margin: -1rem -1rem;
+}
+gallery-item{
+	/*Mnimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse*/
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 4);
+	overflow: hidden;
+	}
+gallery-mage{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+gallery-image:hover{
+	transform: scale(1.15);
+}
+li{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+progress{
+	width: 70%;
+	height: 20px;
+	color: red;
+	background: #000;
+}
+hr{
+	border: 0;
+	height: 1px;
+	background#f36f48;
+}
+	form{
+		text-align: center;
+		margin-top: 0;
+	}
+submit{
+	background-color: white;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+ 	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+submit:hover{
+	background-color: black;
+}
+textarea{
+	height: 100px;
+	}
+input,textarea{
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding; 15px 10px 10px;
+	border: 1px solid #cecece;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+face{
+	transform: scale(0.4);
+	margin: 0 auto;
+	display: block;
+	margin-top: -35px;
+	margin-bottom: -25px;
+}
+#contacts img{
+	height: 50px;
+	width: 50px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+#contacts a{
+	text-decoration: none;
+}
+#contacts img:hover{
+	opacity: 0.8;
+	}
+#contacts{
+	text-align: center;
+	}
+copyright{
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: black;
+}
+
+</style>
+
+<title>Portfolio</title>
+</head>
+<body>
+<header>
+        <nav id="navbar">
+        <a href="#" class="nav-link">About Me and My Life</a>
+        <a href="#work" class="nav-link">My Projects</a>
+        <a href="#skills" class="nav-link">My Skills</a>
+        <a href="#Contact" class="nav-link">Contact</a>
+         </nav>
+      </header>
+ <div id="header" class="section">
+         <img alt="" class="img-circle"
+src="http://m.gettywallpapers.com/iron-man-wallpaper/"
+<p>SYD MFAAZZZ</p>
+</div>
+<div class="section">
+<h1 id=#><span>About Me and My Life</span></h1>
+<p>
+Hey! I'm <b>MAFAZ</b>.STUDYING IN SPAN INTERNATIONAL ACADEMY.LIVING IN KAUSAR BAUGH.MY AMBITION IS TO BECOME A IT ENGINEER</p>
+
+</div>
+
+<div class="section">
+<h1id=work><span>My Projects</span></h1>
+<div class="gallery">
+
+<div class="gallery item">
+
+  <img class="
+</div>
+
+<div class="gallery item">
+               <img class="
+</div>
+
+<div class="section">
+<h1 id=skills><span>My Skills</span></h1>
+<ul>
+
+<li>Communication<br />
+<progress min="0" max="100" value="80"></progress>
+</li>
+<li>LeaderShip<br />
+<progress min="0" max="100" value="60"></progress>
+</li>
+<li>Extroversion<br />
+<progress min="0" max="100" value="95"></progress>
+
+</ul>
+
+</div>
+
+<div class="section">
+    
+
+<div class="section" id="contacts">
+ <h1><span>Follow Me</span></h1>
+
+
+<div class="copyright">
+   &copy;2020 A sincere peer.All rights reserved
+</div>
+
+</body>
+</html>
